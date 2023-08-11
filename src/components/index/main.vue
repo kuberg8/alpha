@@ -51,7 +51,7 @@ onMounted(() => {
     height: rem(320);
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('/assets/images/hero.jpg');
+    background-image: url('~@/assets/images/hero.jpg');
   }
 }
 </style>
