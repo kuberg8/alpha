@@ -12,5 +12,6 @@
   border: 1px solid $color-primary;
   padding: 0 rem(32);
   height: rem(56);
+  border-radius: rem(8);
 }
 </style>
