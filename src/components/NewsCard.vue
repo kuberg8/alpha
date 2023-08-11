@@ -45,6 +45,7 @@ const dateObj = computed(() => {
   align-items: flex-start;
   border-radius: rem(16);
   border: 1px solid $color-primary;
+  overflow: hidden;
 
   &-content {
     display: flex;

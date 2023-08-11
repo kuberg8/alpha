@@ -28,7 +28,7 @@ defineProps({
   padding-top: rem(64);
   padding-bottom: rem(72);
 
-  @include media-breakpoint-down(xl) {
+  @include media-breakpoint-down(lg) {
     justify-content: space-around;
   }
 }
