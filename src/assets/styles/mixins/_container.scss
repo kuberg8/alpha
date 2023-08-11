@@ -1,0 +1,12 @@
+@mixin base-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-left: rem(20);
+  padding-right: rem(20);
+
+  @include media-breakpoint-up(lg) {
+    padding-left: rem(100);
+    padding-right: rem(100);
+  }
+}
